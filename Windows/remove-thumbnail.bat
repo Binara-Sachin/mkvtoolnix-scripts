@@ -1,5 +1,5 @@
 @ECHO OFF
-SET MKVPROEDIT="C:\mkvtoolnix\"
+SET /P MKVPROEDIT="Enter mkvtoolnix home path: "
 SET /P PATH="Enter folder path: "
 IF EXIST %PATH:~1,-1%
 (
