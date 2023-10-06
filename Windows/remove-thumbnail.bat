@@ -1,5 +1,5 @@
 @ECHO OFF
-SET MKVPROEDIT="C:\Users\Asus\Downloads\Software\mkvtoolnix-64-bit-79.0\mkvtoolnix\"
+SET MKVPROEDIT="C:\mkvtoolnix\"
 SET /P PATH="Enter folder path: "
 IF EXIST %PATH:~1,-1%
 (
@@ -9,5 +9,5 @@ IF EXIST %PATH:~1,-1%
        ECHO.
    )
 )
-SET /P X="Press any key to continue.."
+SET /P X="Press Enter to continue.."
 @ECHO ON
